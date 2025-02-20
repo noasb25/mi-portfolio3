@@ -1,0 +1,99 @@
+/* General */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('https://upload.wikimedia.org/wikipedia/commons/e/eb/A_Portrait_of_Global_Winds.png') no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Contenedor principal */
+.container {
+    width: 80%;
+    max-width: 900px;
+    padding: 30px;
+    background: rgba(255, 255, 255, 0.729);
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 80px; /* Espacio para que el footer no se superponga */
+}
+
+/* Título principal */
+h1 {
+    text-align: center;
+    font-size: 2.8rem;
+    font-weight: bold;
+    color: white;
+    background: #1e3a5f;
+    padding: 15px 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+/* Botones */
+button {
+    display: inline-block;
+    padding: 12px 20px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    background: #0056b3;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out, transform 0.1s ease-in-out;
+    margin: 10px;
+}
+
+button:hover {
+    background: #003d80;
+    transform: scale(1.05);
+}
+
+/* Tabla */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: rgb(225, 255, 143);
+}
+
+table th, table td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+}
+
+table th {
+    background: #1e3a5f;
+    color: white;
+}
+
+/* Imagen */
+.imagen {
+    width: 100%;
+    max-width: 600px;
+    margin-top: 20px;
+}
+
+/* Footer */
+footer {
+    width: 96%;
+    text-align: center;
+    background: #1e3a5f;
+    color: white;
+    border-radius: 8px;
+    padding: 15px;
+    font-size: 1rem;
+    position: relative;
+    bottom: 0;
+    margin-top: 20px;
+}

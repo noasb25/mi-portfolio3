@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Predicción Meteorológica</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <script defer src="js/datos.js"></script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Predicción Meteorológica</h1>
+        </header>
+        <main>
+            <div class="botones">
+                <button onclick="obtenerMapaIsobaras()">Mapa Isobaras</button>
+                <button onclick="obtenerInfoCanarias()">Información Canarias</button>
+                <button onclick="obtenerInfoGranCanaria()">Información Gran Canaria</button>
+                <button onclick="limpiarResultados()">Borrar Datos</button>
+            </div>
+            
+            <div id="resultado">
+                <p>Los datos meteorológicos aparecerán aquí.</p>
+            </div>
+        </main>
+        <footer>
+            <p>&copy; 2025 - Proyecto UT7 | Actividad 3</p>
+        </footer>
+    </div>
+</body>
+</html>
